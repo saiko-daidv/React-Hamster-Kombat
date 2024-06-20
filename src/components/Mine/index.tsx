@@ -1,6 +1,7 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
 import { useEffect, useState } from "react";
 import coin from "../../assets/images/coin.webp";
+import hamstergr from "../../assets/images/hamster-gr.png";
 import LevelBar from "./LevelBar";
 import StatusBar from "./StatusBar";
 
@@ -55,7 +56,7 @@ const Mine = () => {
 			</div>
 			<div className="flex items-center justify-center">
 				<img
-					src={coin}
+					src={hamstergr}
 					alt="coin"
 					onClick={handleClick}
 					className="w-[70%] cursor-pointer drop-shadow-2xl coin-button"
